@@ -1,7 +1,9 @@
 # Li-Fi Communication System Using LED and Photodiode
-![Arduino](https://img.shields.io/badge/Platform-Arduino-blue)
-![Protocol](https://img.shields.io/badge/Modulation-FSK%20%7C%20OOK%20%7C%20PWM-green)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+<p align="left">
+  <img src="https://img.shields.io/badge/Platform-Arduino-blue?style=flat-square" alt="Platform: Arduino" />
+  <img src="https://img.shields.io/badge/Modulation-FSK%20%7C%20OOK%20%7C%20PWM-green?style=flat-square" alt="Modulation: FSK | OOK | PWM" />
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square" alt="Status: Completed" />
+</p>
 
 Multi-Modulation Visible Light Communication with ACK-based Reliability
 
