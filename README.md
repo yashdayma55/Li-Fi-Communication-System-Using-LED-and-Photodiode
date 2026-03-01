@@ -1,8 +1,14 @@
 # Li-Fi Communication System Using LED and Photodiode
 <p align="left">
-  <img src="https://img.shields.io/badge/Platform-Arduino-blue?style=flat-square" alt="Platform: Arduino" />
-  <img src="https://img.shields.io/badge/Modulation-FSK%20%7C%20OOK%20%7C%20PWM-green?style=flat-square" alt="Modulation: FSK | OOK | PWM" />
-  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square" alt="Status: Completed" />
+  <a href="https://www.arduino.cc/">
+    <img src="https://img.shields.io/badge/Platform-Arduino-blue?style=flat-square" alt="Platform: Arduino" />
+  </a>
+  <a href="#modulation-techniques">
+    <img src="https://img.shields.io/badge/Modulation-FSK%20%7C%20OOK%20%7C%20PWM-green?style=flat-square" alt="Modulation: FSK | OOK | PWM" />
+  </a>
+  <a href="#project-status">
+    <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square" alt="Status: Completed" />
+  </a>
 </p>
 
 Multi-Modulation Visible Light Communication with ACK-based Reliability
@@ -73,6 +79,11 @@ The software is organized by modulation scheme:
 
 Shared protocol notes: `software/common/packet_structure.md`
 
+## Modulation Techniques
+- OOK: LED on = 1, LED off = 0
+- FSK: low frequency = 0, high frequency = 1
+- PWM: low duty cycle = 0, high duty cycle = 1
+
 ## Communication Protocol
 Packet layout:
 
@@ -103,6 +114,9 @@ Add a demo video link here (YouTube unlisted recommended).
 - Encryption layer for secure LiFi
 - Higher data rate optimization
 - Ambient light filtering
+
+## Project Status
+Completed per course requirements; see report for details.
 
 ## How To Run
 Transmitter:
